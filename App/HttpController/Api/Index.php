@@ -18,7 +18,7 @@ class Index extends Controller
     {
         $data   = [
             'id'  => '1',
-            'name' => 'summer_li2018年11月8日20:46:13'
+            'name' => 'summer_li2018000年11月8日20:46:13'
         ];
         return $this->writeJson(200,'ok',$data);
     }
