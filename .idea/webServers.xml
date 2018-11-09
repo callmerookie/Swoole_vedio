@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6e16e694-094c-41b1-9ba7-53cf5bb60103" name="hospital" url="http://120.26.54.110:81">
+        <fileTransfer host="120.26.54.110" port="22" rootFolder="/home/wwwroot/general" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2e3e2fc4-b834-411a-b650-0325baa63aef" name="easy_swoole" url="http://120.26.54.110:9501">
+        <fileTransfer host="120.26.54.110" port="22" rootFolder="/home/work/easyswoole/easyswoole" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
